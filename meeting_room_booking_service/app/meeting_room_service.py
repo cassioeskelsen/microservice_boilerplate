@@ -15,7 +15,6 @@ class MeetingRoomService():
     def __init__(self):
         pass
     
-    
     def NewReservation(self, room_name, datetime):
         reservation = RoomReservation()
         reservation.room.name = "Yoda"

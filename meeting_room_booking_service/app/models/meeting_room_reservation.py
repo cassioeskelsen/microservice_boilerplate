@@ -16,7 +16,7 @@ class RoomReservation(Document):
         self.room = Room()
 
     datehour = DateTimeField()
-    employeer = EmbeddedDocumentField(Employeer)
+    employer = EmbeddedDocumentField(Employeer)
     room = EmbeddedDocumentField(Room)
     
     meta = {
