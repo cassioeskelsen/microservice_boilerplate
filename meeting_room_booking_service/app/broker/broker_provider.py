@@ -17,5 +17,13 @@ class BrokerProvider(ABC):
     @abstractmethod
     def get_next_message(self):
         pass
+    
+    @abstractmethod
+    def send_message(self, topic):
+        pass
+
+    @abstractmethod
+    def send_message(self, topic, routing_key):
+        pass
 
     

@@ -16,3 +16,9 @@ class RabbitMQProvider(BrokerProvider):
     
     def declare_channels(self, channel_names):
         pass
+    
+    def send_message(self, topic, message):
+        pass
+    
+    def send_message(self, topic, routing_key, message):
+        pass
